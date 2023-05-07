@@ -20,12 +20,16 @@
             <section >
                 <div class="form-col1">
                     <label for="firstName">First Name:</label>
-                    <input type="text" name="firstName" id="firstName">
+                    <input type="text" name="firstName" id="firstName" minlength="2" maxlength="15"
+                     pattern="[A-Za-z]+"
+                     title="Please enter your first name(at least 2 characters) ex. Tom" required>
                 </div>
                 
                 <div class="form-col2">
                     <label for="lastName">Last Name:</label>
-                    <input type="text" name="lastName" id="lastName">  
+                    <input type="text" name="lastName" id="lastName" minlength="2" maxlength="15"
+                     pattern="[A-Za-z]+"
+                     title="Please enter your last name(at least 2 characters) ex. Holland" required>  
                 </div> 
                 <br><br><br>
             </section>
@@ -33,12 +37,13 @@
             <section >
                 <div class="form-col1">
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                 </div>
                 
                 <div class="form-col2">
                     <label for="phoneNumber">Phone Number:</label>
-                    <input type="tel" name="phoneNumber" id="phoneNumber">
+                    <input type="tel" name="phoneNumber" id="phoneNumber" pattern="^[6-9]\d{9}$"
+                     title="Please enter your 10 digit mobile number starting with 6, 7, 8 or 9" required>
                 </div>
                 <br><br><br>
             </section>
@@ -46,12 +51,16 @@
             <section >
                 <div class="form-col1">
                     <label for="password">Password:</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" minlength="8" maxlength="15"
+                     pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,15}$"
+                     title="Enter a strong password at least 8 character long and maximum 15 characters containing
+                     at least one number, upper case letter, lower case letter and one special character" required>
                 </div>
                 
                 <div class="form-col2">
                     <label for="confirmPassword">Confirm Password:</label>
-                    <input type="password" name="confirmPassword" id="confirmPassword">
+                    <input type="password" name="confirmPassword" id="confirmPassword" minlength="8" 
+                     maxlength="15" title="Please enter the same password" required>
                 </div>
                 <br><br><br>
             </section>
