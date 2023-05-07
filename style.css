@@ -17,3 +17,11 @@ form{
 input, label{
     display: block;
 }
+input:invalid{
+    border-style: solid;
+    border-color: hsla(0, 89%, 51%, 0.973);
+}
+input:valid{
+    border-style: solid;
+    border-color: hsla(138, 89%, 51%, 0.973);
+}
