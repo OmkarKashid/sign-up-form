@@ -9,36 +9,58 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div id="logo">
-
+    <div>
+        This is not a real online service! You know you need something like this in your life
+        to help you realize your deepest dreams. Sign up now to get started!
+        <br>
+        You know you want to.
     </div>
     <div id="form">
-        <form action="#" method="post">
-            <section class="form-group">
-                <label for="firstName">First Name:</label>
-                <input type="text" name="firstName" id="firstName">
-
-                <label for="lastName">Last Name:</label>
-                <input type="text" name="lastName" id="lastName">
+        <form action="#" method="post" id="sign-up-form">
+            <section >
+                <div class="form-col1">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+                
+                <div class="form-col2">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName">  
+                </div> 
+                <br><br><br>
             </section>
             
-            <section class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
-
-                <label for="phoneNumber">Phone Number:</label>
-                <input type="tel" name="phoneNumber" id="phoneNumber">
+            <section >
+                <div class="form-col1">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                
+                <div class="form-col2">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber">
+                </div>
+                <br><br><br>
             </section>
             
-            <section class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password">
-
-                <label for="confirmPassword">Confirm Password</label>
-                <input type="password" name="confirmPassword" id="confirmPassword">
+            <section >
+                <div class="form-col1">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                
+                <div class="form-col2">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword">
+                </div>
+                <br><br><br>
             </section>
-            
         </form>
+    </div>
+    <div>
+        <button type="submit" form="sign-up-form" > Create Account</button>
+        <br><br>
+        <span>Already have an account? <a href="">Log in</a></span>
     </div>
 </body>
 </html>

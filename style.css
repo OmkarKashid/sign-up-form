@@ -1,3 +1,19 @@
+body{
+    background-color: rgba(199, 195, 195, 0.39);
+}
+form{
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.form-col1{
+    float: left;
+    margin-right: 20px;
+}
+.form-col2{
+    float: left;
+}
 input, label{
     display: block;
 }
