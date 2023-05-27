@@ -14,11 +14,10 @@ img{
 }
 #container-form{
     padding: 50px;
-    /*margin-top: 20px;
-    margin-bottom: 20px;*/
 }
 form{
     font-size: 0.8rem;
+    font-weight: bold;
     color: hsla(0, 3%, 25%, 0.938);
     padding: 50px;
     margin-top: 20px;
@@ -31,10 +30,14 @@ form{
 }
 .form-col1{
     float: left;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 .form-col2{
     float: left;
+}
+input{
+    border-radius: 0.2rem;
+    height: 1.2rem;
 }
 button{
     width: 10rem;
@@ -50,11 +53,12 @@ button{
 input, label{
     display: block;
 }
-input:invalid{
+input:focus {
+    outline: none !important;
+    border:1px solid hsl(244, 56%, 41%);
+    box-shadow: 0 0 3px #719ECE;
+  }
+input:invalid:focus{
     border-style: solid;
     border-color: hsla(0, 89%, 51%, 0.973);
-}
-input:valid{
-    border-style: solid;
-    border-color: hsla(138, 89%, 51%, 0.973);
 }
