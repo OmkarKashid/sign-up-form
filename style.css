@@ -3,7 +3,7 @@ body{
     background-color: rgb(249, 250, 250);
 }
 #container{
-    display: grid;
+    display: grid; /*for creating 2 columns, 1 for logo and other for form*/
     grid-template-columns: 30rem 49rem;
     margin-top: -0.5rem;
     margin-left: -0.5rem;
