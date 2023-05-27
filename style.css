@@ -15,7 +15,7 @@ body{
     margin-bottom: -29rem; /* Change LOGO position vertically*/
 }
 #logo{
-    display: flex;
+    display: flex; /*for aligning logo img and logo text in center*/
     justify-content: center;
     align-items: center;
 }
@@ -48,7 +48,7 @@ form{
     box-shadow: inset 0px 1px 1px -1px hsla(0, 7%, 71%, 0.973),
                 5px 5px 3px hsla(0, 7%, 71%, 0.973);
 }
-.form-col1{
+.form-col1{ /*For creating 2 columns of input fields*/
     float: left;
     margin-right: 50px;
 }
