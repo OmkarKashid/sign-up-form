@@ -33,24 +33,24 @@ body{
     background-color: rgba(12, 12, 12, 0.664);
 }
 #container-form{
-    padding: 50px;
+    padding: 3.1rem;
 }
 form{
     font-size: 0.8rem;
     font-weight: bold;
     color: hsla(0, 3%, 25%, 0.938);
-    padding: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: -50px;
-    margin-right: -55px;
+    padding: 3.2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    margin-left: -3.1rem;
+    margin-right: -3.2rem;
     background-color: hsl(0, 0%, 100%);
     box-shadow: inset 0px 1px 1px -1px hsla(0, 7%, 71%, 0.973),
                 5px 5px 3px hsla(0, 7%, 71%, 0.973);
 }
 .form-col1{ /*For creating 2 columns of input fields*/
     float: left;
-    margin-right: 50px;
+    margin-right: 3.2rem;
 }
 .form-col2{
     float: left;
