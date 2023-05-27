@@ -8,9 +8,29 @@ body{
     margin-top: -0.5rem;
     margin-left: -0.5rem;
 }
-img{
+
+#background-img{
     width: 30rem;
     height: 38rem;
+    margin-bottom: -29rem; /* Change LOGO position vertically*/
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo-img{
+    width: 8rem;
+    height: 10rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: rgba(12, 12, 12, 0.664);
+}
+#logo-text{
+    color: hsl(120, 56%, 94%);
+    font-family: monospace;
+    font-size: 3rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: rgba(12, 12, 12, 0.664);
 }
 #container-form{
     padding: 50px;
@@ -70,5 +90,3 @@ a{
     font-weight: bold;
     text-decoration: none;
 }
-
-
