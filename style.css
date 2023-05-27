@@ -1,15 +1,16 @@
 body{
+    font-family: roboto, Arial, Helvetica, sans-serif;
     background-color: rgb(249, 250, 250);
 }
 #container{
     display: grid;
     grid-template-columns: 30rem 49rem;
+    margin-top: -0.5rem;
+    margin-left: -0.5rem;
 }
 img{
     width: 30rem;
     height: 38rem;
-    margin-top: -10px;
-    margin-left: -1px;
 }
 #container-form{
     padding: 50px;
@@ -17,11 +18,13 @@ img{
     margin-bottom: 20px;*/
 }
 form{
+    font-size: 0.8rem;
+    color: hsla(0, 3%, 25%, 0.938);
     padding: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: -50px;
-    margin-right: -50px;
+    margin-right: -55px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: inset 0px 1px 1px -1px hsla(0, 7%, 71%, 0.973),
                 5px 5px 3px hsla(0, 7%, 71%, 0.973);
@@ -32,6 +35,17 @@ form{
 }
 .form-col2{
     float: left;
+}
+button{
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: #596D48;
+    border-style: solid;
+    border-radius: 0.4rem;
+    box-shadow: 1px 1px 1px hsla(0, 1%, 53%, 0.233);
 }
 input, label{
     display: block;
